@@ -59,11 +59,11 @@ function UI:Main(uiName, gameName, keyBind, themeName)
     local input = game:GetService("UserInputService")
     
 	
-    uiName = uiName or "Acent Hub"
+    uiName = uiName or "Ark Hub"
     gameName = gameName or "BasePlate"
     keyBind = keyBind or "RightAlt"
 
-    AcentHubOrange.Name = "Acent Hub"
+    AcentHubOrange.Name = "Ark Hub"
     AcentHubOrange.Parent = game.CoreGui
     AcentHubOrange.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
     
@@ -900,8 +900,8 @@ function UI:Main(uiName, gameName, keyBind, themeName)
 end
 
 function UI:Delete()
-    if game.CoreGui:FindFirstChild("Acent Hub") ~= nil then
-        game.CoreGui:FindFirstChild("Acent Hub"):Destroy()
+    if game.CoreGui:FindFirstChild("Ark Hub") ~= nil then
+        game.CoreGui:FindFirstChild("Ark Hub"):Destroy()
     end
 end
 
